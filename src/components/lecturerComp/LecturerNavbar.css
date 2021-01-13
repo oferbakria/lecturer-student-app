@@ -1,0 +1,71 @@
+
+.lecturer-nvbar{
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.lecturer-nvbar #lecturer-navlinks {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:#327A81;
+  font-family:  'Carter One', cursive;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.lecturer-nvbar #lecturer-navlinks .navLinksLi {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.lecturer-nvbar #lecturer-navlinks .navLinksLi:last-child {
+  border-right: none;
+}
+
+.lecturer-nvbar #lecturer-navlinks .navLinksLi a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+.lecturer-nvbar #lecturer-navlinks .navLinksLi>a:hover{
+  color: #FFFFFF;
+}
+.lecturer-nvbar #lecturer-navlinks .navLinksLi a:hover:not(.active) {
+  background-color:#9ad3bc;
+}
+.lecturer-nvbar .toggleNavbar {
+  cursor: pointer;
+  display: none;
+  background-color:#327A81;
+  color: black;
+  text-align: left;
+  /* float: right; */
+  padding: 16px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+@media only screen and (max-width: 601px) {
+  .lecturer-nvbar #lecturer-navlinks .navLinksLi {
+    float:none;
+  }
+  .lecturer-nvbar .toggleNavbar {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .lecturer-nvbar #lecturer-navlinks{
+    display: block;
+  }
+}
+
+.showNavbar {
+  display: none;
+}

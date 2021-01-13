@@ -1,0 +1,164 @@
+.table-student h1{
+  color:red;
+}
+.table-student .imgStudentInfo{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+ .table-student .stuHeader {
+    background-color: #8d93ab;
+    color: white;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+  }
+ .table-student .imgStudentInfo img {
+    border-radius: 50%;
+    margin-left: 10%;
+    height: 200px;
+    width: 200px;
+  }
+  .table-student .imgStudentInfo .myName{
+     margin-top: 10%;
+ }
+ .table-student .imgStudentInfo .myName>*{
+   padding: 1%;
+ }
+  .table-student {
+    background-color: #d6e0f0;
+    border: 1px solid #8d93ab;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 800px;
+  }
+  .table-student table {
+    width: 100%;
+  }
+  .table-student table td, .table-student table th {
+    color: #2b686e;
+    padding: 10px;
+  }
+  .table-student table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .table-student table th {
+    background-color: #f4f4f2;
+    font-weight: 500;
+  }
+  .table-student table tr:nth-child(2n) {
+    background-color: #e8e8e8;
+  }
+  .table-student table tr:nth-child(2n+1) {
+    background-color: white;
+  }
+  .table-student .MuiSvgIcon-root{
+   color:green;
+}
+.table-student .x{
+ color:red;
+}
+@media screen and (max-width: 500px) {
+   .table-student .imgStudentInfo{
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+   }
+   table .hideCol{
+      display: none;
+   }
+}
+  /* @media screen and (max-width: 700px) {
+    .table-student table, .table-student tr, .table-student td {
+      display: block;
+   }
+   .table-student td:first-child {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100px;
+   }
+   .table-student td:not(:first-child) {
+      clear: both;
+      margin-left: 100px;
+      padding: 4px 20px 4px 90px;
+      position: relative;
+      text-align: left;
+   }
+   .table-student td:not(:first-child):before {
+      color: #d6e0f0;
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+   }
+   .table-student td:nth-child(2):before {
+      content: 'Date:';
+   }
+   .table-student td:nth-child(3):before {
+      content: 'Your attendance schedule:';
+   }
+   .table-student tr {
+      padding: 10px 0;
+      position: relative;
+   }
+   .table-student tr:first-child {
+      display: none;
+   }
+  }
+  @media screen and (max-width: 500px) {
+    .table-student .stuHeader {
+      background-color: transparent;
+      color: #fff;
+      font-size: 2em;
+      font-weight: 700;
+      padding: 0;
+      text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+   }
+   .table-student img {
+      border: 3px solid;
+      border-color: #daeff1;
+      height: 100px;
+      margin: 0.5rem 0;
+      width: 100px;
+   }
+   .table-student td:first-child {
+      background-color: #c8e7ea;
+      border-bottom: 1px solid #d6e0f0;
+      border-radius: 10px 10px 0 0;
+      position: relative;
+      top: 0;
+      transform: translateY(0);
+      width: 100%;
+   }
+   .table-student td:not(:first-child) {
+      margin: 0;
+      padding: 5px 1em;
+      width: 100%;
+   }
+   .table-student td:not(:first-child):before {
+      font-size: 0.8em;
+      padding-top: 0.3em;
+      position: relative;
+   }
+   .table-student td:last-child {
+      padding-bottom: 1rem !important;
+   }
+   .table-student tr {
+      background-color: white !important;
+      border: 1px solid #6cbec6;
+      border-radius: 10px;
+      box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+      margin: 0.5rem 0;
+      padding: 0;
+   }
+   .table-student {
+      border: none;
+      box-shadow: none;
+      overflow: visible;
+   }
+  } */

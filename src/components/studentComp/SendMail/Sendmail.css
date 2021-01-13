@@ -1,0 +1,57 @@
+ .myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ } 
+.DivForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;  
+    border-radius: 5px;
+    padding: 20px;
+    /* width: 20%; */
+    border: 3px solid #ccc;
+}
+.DivForm .header{
+    /* background-color: #8d93ab; */
+    color: white;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+}
+
+.formInputs input[type=text] ,.formInputs input[type=email] ,.formInputs textarea{
+    width: 100%;
+    /* padding: 7%; */
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    margin-top: 5%;
+    margin-bottom: 8%;
+    resize: vertical;
+  }
+.formInputs label{
+    color:#e9e5e0;
+}
+  
+.formInputs input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formInputs input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.DivForm .formInputs .warnings{
+  display: none;
+  float: right;
+  color: red;
+}

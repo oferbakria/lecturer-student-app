@@ -1,0 +1,40 @@
+.reset-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-div-reset{
+    margin-top: 100px;
+    color: white;
+    /* background-color: #2C303A; */
+    background-color:rgba(70, 52, 185, 0.8) ;
+    border-radius: 10px;
+    width: 350px;
+}
+.main-div-reset .field{
+    margin-top: 10%;
+    display: grid;
+    margin-left: 10%;
+}
+.main-div-reset  h3{
+    margin-left: 5%;
+}
+.main-div-reset .field input[type="text"]{
+    margin-top: 5%;
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+}
+.main-div-reset .field #required{
+    display: none;
+    margin-left: 10%;
+    color: red;
+}
+#forgot-email-btn{
+    width: 30%;
+    /* margin-left: 55%; */
+    height: 30px;
+    margin-bottom:7%;
+}
+
